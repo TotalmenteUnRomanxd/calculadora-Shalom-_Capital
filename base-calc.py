@@ -27,3 +27,4 @@ print("el resultado de la resta es:"), resultado
 return resultado
 def TODO():
     print("¡FUNCION EN PROCESO!")
+
