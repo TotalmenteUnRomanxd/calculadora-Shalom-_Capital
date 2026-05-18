@@ -10,10 +10,22 @@ def menu():
          print("Utilize resta(*primer numero*, *segundo numero*) para la operacion")
      else:
          if mango==3:
-             print("Utilize multiplicacion(*primer numero*, *segundo numero*) para la operacion")
+             print ("Multiplicación")
+             multi1 = float(input("Ingrese el primer número: "))
+             multi2 = float(input("Ingrese el segundo número: "))
+
+             Resultadomulti = multi1 * multi2
+
+             print ("El resultado de tu multiplicación es: ", Resultadomulti)
+             
          else:
              if mango==4:
-                 print("Utilize division(*primer numero*, *segundo numero*) para la operacion")
+                 print("División")
+                 divi1 = float(input("Ingrese el primer número: "))
+                 divi2 = float(input("Ingrese el segundo número: "))
+                 resultadodiv= divi1/divi2
+                 print ("El resultado de la división es: " , resultadodiv)
+                 
              else:
 
                  print("No es una opcion")       
@@ -23,3 +35,4 @@ def resta(a, b):
     return a-b
 def TODO():
     print("¡FUNCION EN PROCESO!")
+
