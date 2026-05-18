@@ -1,4 +1,5 @@
-print("Bienvenido. Aqui tienes las opciones:")
+def menu():
+ print("Bienvenido. Aqui tienes las opciones:")
  print("1. Suma                      2. Resta")
  print("3. Multiplicacion            4. Division")
  mango=int(input("Elija: "))
