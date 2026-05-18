@@ -19,12 +19,10 @@ def menu():
                  print("No es una opcion")       
 def suma(a, b):
     resultado = a + b
-print("el resultado de la suma es:"), resultado
-return resultado
+    print("el resultado de la suma es:"), resultado
+    return resultado
+
 def resta(a, b):
     resultado = a - b
-print("el resultado de la resta es:"), resultado
-return resultado
-def TODO():
-    print("¡FUNCION EN PROCESO!")
-
+    print("el resultado de la resta es:"), resultado
+    return resultado
