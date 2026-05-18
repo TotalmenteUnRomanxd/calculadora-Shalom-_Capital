@@ -30,9 +30,12 @@ def menu():
 
                  print("No es una opcion")       
 def suma(a, b):
-    return a+b
+    resultado = a + b
+    print("el resultado de la suma es:"), resultado
+    return resultado
+
 def resta(a, b):
-    return a-b
-def TODO():
-    print("¡FUNCION EN PROCESO!")
+    resultado = a - b
+    print("el resultado de la resta es:"), resultado
+    return resultado
 
